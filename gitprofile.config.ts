@@ -17,7 +17,7 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 6, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: ["yvanlok/yvanlok", "yvanlok/umami", "yvanlok/yvanlok.github.io"], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ["yvanlok/BetterGPT-4", "yvanlok/AI-Image-Gen"], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
